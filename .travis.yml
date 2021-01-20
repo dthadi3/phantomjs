@@ -1,7 +1,10 @@
+arch:
+  - amd64
+  - ppc64le
 language: node_js
 sudo: false
 node_js:
+  - "14"
+  - "12"
   - "5"
   - "4"
-  - "0.12"
-  - "0.10"
